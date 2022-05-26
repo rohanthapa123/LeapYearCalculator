@@ -13,6 +13,7 @@ function alertPopUp(value){
 //this function is callled when cross botton is clicked which make the popup btn hidden
 burgerBtn.addEventListener("click", function close(){
     alertBox.style.visibility = "hidden";
+    enteredYear.value = "";
 })
 
 //function that calculate whethere it is a leap year or not 
